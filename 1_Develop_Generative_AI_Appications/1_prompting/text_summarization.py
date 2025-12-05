@@ -1,10 +1,10 @@
-from client_wrapper import OpenAIChatWrapper
+from openaiclient_wrapper import OpenAIChatWrapper
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableLambda
 from langchain_core.output_parsers import StrOutputParser
 from prompt_formatter import PromptFormatter
 
-client_wrapper = OpenAIChatWrapper()
+openaiclient_wrapper = OpenAIChatWrapper()
 llm = OpenAIChatWrapper().createInstance()
 
 

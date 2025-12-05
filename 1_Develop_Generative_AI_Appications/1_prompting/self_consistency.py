@@ -1,7 +1,7 @@
-from client_wrapper import OpenAIChatWrapper
+from openaiclient_wrapper import OpenAIChatWrapper
 from langchain_core.prompts import ChatPromptTemplate
 
-client_wrapper = OpenAIChatWrapper()
+openaiclient_wrapper = OpenAIChatWrapper()
 llm = OpenAIChatWrapper(max_tokens=512).createInstance()
 
 
